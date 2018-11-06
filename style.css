@@ -33,7 +33,7 @@ body {
     max-width: 632px;
     padding: 20px 0;
   }
-  nav img{
+  nav .logo{
       width:100px;
       height:100px;
   }
@@ -64,7 +64,7 @@ body {
   .food-flex .fruit {
     background-size: cover;
     background-position: center;
-    background-image: url(/img/fruit.jpg)
+    background-image: url(img/fruit.jpg)
   }
   .bg-img{
     background-size: cover;
