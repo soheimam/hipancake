@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:500');
-
-
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -17,20 +14,16 @@ body {
 .pink{
     color:#FF99C8;
 }
-
 .blue{
     color:#A9DEF9;
 }
-
 /* backgrounds */
 .breakfast{
     background-image: url(img/cover.jpg);
 }
-
 .svg{
     background-image:url(img/confetti_1.svg)  
 }
-
   h1{
     font-family: Abril Fatface;
     font-style: Regular;
@@ -40,21 +33,22 @@ body {
     max-width: 632px;
     padding: 20px 0;
   }
-
-  nav{
-      background-color: #FF99C8;
-      display:flex;
-      justify-content: space-between;
-      padding-top:40px;
-      padding-bottom:40px;
+  nav img{
+      width:100px;
+      height:100px;
   }
-  
+  nav{
+    background-color: #FF99C8;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  } 
   .flex-container{
       display:flex;
       justify-content:center;
       align-content:center;
   }
-
   .food-flex{
         overflow: hidden;
         max-width: 100%;
@@ -62,36 +56,29 @@ body {
   }
   .food-flex div {
     width: 50%;
-  }
-  
+  } 
   div.f-quote {
     background-color: #FFDB5B;
     padding: 65px 90px 165px 90px;
-  }
-  
+  } 
   .food-flex .fruit {
     background-size: cover;
     background-position: center;
     background-image: url(/img/fruit.jpg)
   }
-
   .bg-img{
     background-size: cover;
     padding: 250px 0;
     background-position: center center;
   }
- 
-
   .images{
       width:100%;
       display:flex;
       max-height:462px;
   }
-
   .images img{
       width:33.333%;
   }
-
   button{
     width: 200px;
     height: 64px;
@@ -112,7 +99,6 @@ body {
       align-content: center;
       justify-content: center;
       background-color: #A9DEF9;
-
   }
   .contact img{
       border-radius: 50%;
