@@ -53,6 +53,7 @@ body {
       display:flex;
       justify-content:center;
       align-content:center;
+      background-image: url(img/cover.jpg);
   }
 
   .food-flex{
