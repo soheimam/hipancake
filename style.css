@@ -24,11 +24,11 @@ body {
 
 /* backgrounds */
 .breakfast{
-    background-image: url(/img/cover.jpg);
+    background-image: url(img/cover.jpg);
 }
 
 .svg{
-    background-image:url(/img/confetti_1.svg)  
+    background-image:url(img/confetti_1.svg)  
 }
 
   h1{
